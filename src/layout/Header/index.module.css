@@ -1,0 +1,38 @@
+.main {
+  z-index: 22;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+.item {
+  display: flex;
+  padding: 0 20px;
+  cursor: default;
+}
+.item:hover {
+  background-color: #0057ff;
+}
+.item.release {
+  width: 100px;
+  background-color: #0057ff;
+}
+.item.release:hover {
+  background-color: #ffe331;
+}
+.item.release:hover span {
+  color: black;
+}
+.icon {
+  font-size: 22px;
+}
+.nextStep {
+  display: inline-block;
+  transform: rotateY(180deg);
+}

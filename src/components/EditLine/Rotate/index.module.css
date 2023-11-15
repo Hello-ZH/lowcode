@@ -1,0 +1,13 @@
+.rotate {
+  z-index: 9999;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  color: rgba(0, 87, 255, 1);
+  font-weight: bold;
+  font-size: 24px;
+  cursor: grab;
+  background-color: rgba(255, 255, 255);
+}
